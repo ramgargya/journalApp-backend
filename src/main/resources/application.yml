@@ -1,0 +1,20 @@
+
+# this file is used to active and deactive the production and the development profiles
+# it means here we can choose which profile we are going to use
+
+spring:
+  profiles:
+    active: dev
+
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ramsharmaperfectmoker@gmail.com
+    password: vtua dmfl driw xlef
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: ture

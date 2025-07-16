@@ -1,0 +1,14 @@
+#This profile is for the production
+spring:
+  application:
+    name: journalApp
+
+  data:
+    mongodb:
+      uri: mongodb+srv://ramsharmaperfectmoker:9afuRkuUfLjMo87Y@cluster0.nvzvo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: journaldb
+      auto-index-creation: true
+
+
+server:
+  port: 9090
