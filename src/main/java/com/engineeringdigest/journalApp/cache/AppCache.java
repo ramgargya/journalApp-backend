@@ -14,10 +14,6 @@ import java.util.Map;
 public class AppCache {
 
 
-    public enum keys {
-        WEATHER_API;
-    }
-
 
     @Autowired
     private ConfigJournalAppRepository configJournalAppRepository;
